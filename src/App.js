@@ -10,6 +10,7 @@ export default class App extends Component {
         return (
             <div className="App">
                 <button onClick={()=>this.setState({num: this.state.num + 1})}>{this.state.num}</button>
+              <h1>Hello!</h1>
             </div>
         )
     }
